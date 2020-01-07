@@ -27,7 +27,7 @@ label - Ensures every form element has a label
 		Form element does not have an implicit (wrapped) <label>
 		Form element does not have an explicit <label>
 		Element has no title attribute or the title attribute is empty
-	2) Target: #form-Contact-c1c9_SendTo_SelectedValue
+	2) Target: #form-Contact-bd3d_SendTo_SelectedValue
 		aria-label attribute does not exist or is empty
 		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
 		Form element does not have an implicit (wrapped) <label>

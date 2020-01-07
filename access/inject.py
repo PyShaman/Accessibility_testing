@@ -12,7 +12,7 @@ class AccessSite:
         axe = Axe(driver)
         axe.inject()
         results = axe.run()
-        f = open("results/" + file_name.replace("/", "_"), "w", encoding="utf-8")
+        f = open("results/" + file_name, "w", encoding="utf-8")
         f.write(site + "\n")
         f.write(axe.report(results["violations"]))
         f.close()
