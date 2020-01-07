@@ -1,0 +1,95 @@
+Offices: https://www.emakina.group/en-US/WhereWeAre/Offices
+Found 6 accessibility violations:
+
+
+Rule Violated:
+color-contrast - Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds
+	URL: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+	Impact Level: serious
+	Tags: cat.color wcag2aa wcag143
+	Elements Affected:
+	1) Target: .sub-navigation__link[href$="Offices"]
+		Element has insufficient color contrast of 1.59 (foreground color: #ffc400, background color: #ffffff, font size: 15.0pt, font weight: bold). Expected contrast ratio of 3:1
+
+
+
+
+
+Rule Violated:
+heading-order - Ensures the order of headings is semantically correct
+	URL: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.semantics best-practice
+	Elements Affected:
+	1) Target: h3
+		Heading order invalid
+
+
+
+
+
+Rule Violated:
+label - Ensures every form element has a label
+	URL: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+	Impact Level: critical
+	Tags: cat.forms wcag2a wcag332 wcag131 section508 section508.22.n
+	Elements Affected:
+	1) Target: input
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+		Form element does not have an implicit (wrapped) <label>
+		Form element does not have an explicit <label>
+		Element has no title attribute or the title attribute is empty
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .menu__logo-link
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+	2) Target: .footer__logo > a[href="/"]
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+
+
+Rule Violated:
+meta-viewport - Ensures <meta name="viewport"> does not disable text scaling and zooming
+	URL: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+	Impact Level: critical
+	Tags: cat.sensory-and-visual-cues wcag2aa wcag144
+	Elements Affected:
+	1) Target: meta[name="viewport"]
+		user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+
+
+
+Rule Violated:
+region - Ensures all page content is contained by landmarks
+	URL: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.keyboard best-practice
+	Elements Affected:
+	1) Target: html
+		Some page content is not contained by landmarks
+
+
